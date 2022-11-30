@@ -155,23 +155,6 @@ img {
     padding: 20px 20px 20px 40px;
 }
 
-
-h1, h2, h4{
-    font-weight: 800;
-}
-
-h1 {
-    font-size: 35px;
-}
-
-h2 {
-    font-size: 20px;
-}
-
-h4 {
-    font-size: 16px;
-}
-
 .greeting {
     display: flex;
     flex-direction: row;
@@ -298,7 +281,29 @@ hr {
     font-size: 20px;
 }
 
+h1, h2, h4, h5{
+    font-weight: 800;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
 a {
     text-decoration: none;
     color: black;
+}
+
+p {
+    font-weight: 300;
+    color: #6e6e6e;
+    font-size: 16px;
 }
