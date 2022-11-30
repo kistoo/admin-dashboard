@@ -59,9 +59,9 @@ table {
 :root {
     --primary-color: #991b1b;
     --secondary-color: #9a3412;
-    --surface: #fda4af;
-    --background: #f3f4f6;
-    --secondary-background: white;
+    --surface: #ca6773;
+    --background: #e0d8d8;
+    --secondary-background: rgb(248, 246, 246);
 }
 
 img {
@@ -210,11 +210,11 @@ img {
     gap: 10px;
 }
 
-.announcements {
+.social {
     margin-right: 40px;
 }
 
-.announcements>div {
+.social>div>div {
     background-color: var(--secondary-background);
     border-radius: 10px;
     box-shadow: 4px 4px 4px 1px #d6d6d6;
@@ -230,6 +230,29 @@ hr {
     border-radius: 30%;
 }
 
+.user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.user img {
+    margin: 10px 20px 10px 0;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.user>div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
 .header-title {
     padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
