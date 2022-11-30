@@ -56,6 +56,42 @@ table {
 
 /*style*/
 
+
+
 img {
+    height: 30px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    height: 100%;
+}
+
+.sidebar {
+    display: grid;
+    grid-template-rows: minmax(120px,2fr) repeat(auto-fill, minmax(60px,1fr));
+}
+
+.sidebar div {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+}
+
+.logo {
+    padding: 0 20px 20px;
+    gap: 5px;
+}
+
+.logo img{
     height: 50px;
+}
+
+.option {
+    padding: 10px 30px;
+}
+
+.content {
+
 }
