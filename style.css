@@ -70,6 +70,7 @@ table {
 
 html {
     position: fixed;
+    background-color: var(--background);
 }
 
 img {
@@ -177,6 +178,7 @@ input {
     background-color: var(--surface);
     justify-content: space-between;
     padding: 20px 20px 20px 40px;
+    box-shadow: 2px 7px 3px 1px #d6d6d6;
 }
 
 .greeting {
@@ -209,21 +211,21 @@ button {
     padding: 15px 35px;
     border: none;
     border-radius: 40% / 80%;
-    color: var(--surface);
+    color: white;
     font-weight: 800;
     font-size: 18px;
 }
 
 button:hover {
-    filter: saturate(75%);
+    filter: saturate(50%);
     background-color: var(--primary-color);
+    color: var(--surface);
     transition: 200ms ease-in-out;
 }
 
 .main-content {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    background-color: var(--background);
     padding-top: 20px;
 }
 
@@ -246,7 +248,7 @@ button:hover {
     height: 200px;
     background-color: var(--secondary-background);
     border-radius: 10px;
-    box-shadow: 4px 4px 4px 1px #d6d6d6;
+    box-shadow: 5px 5px 3px 2px #d6d6d6;
     display: flex;
 }
 
@@ -292,7 +294,7 @@ button:hover {
 .social>div>div {
     background-color: var(--secondary-background);
     border-radius: 10px;
-    box-shadow: 4px 4px 4px 1px #d6d6d6;
+    box-shadow: 5px 5px 3px 2px #d6d6d6;
     display: flex;
     flex-direction: column;
     padding: 20px 20px 20px 20px;
