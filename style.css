@@ -59,8 +59,8 @@ table {
 :root {
     --primary-color: #991b1b;
     --secondary-color: #fbbf24;
-    --surface: #fecaca;
-    --background: #fffbeb;
+    --surface: #fef2f2;
+    --background: #fef3c7;
 }
 
 img {
@@ -104,5 +104,29 @@ img {
 }
 
 .content {
+    display: grid;
+    grid-template-rows: 1fr 2fr 15fr;
+}
 
+.header {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    background-color: var(--surface);
+}
+
+.header>div {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.search-bar {
+    padding-left: 40px;
+    justify-content: start;
+}
+
+.profile {
+    padding-right: 40px;
+    justify-content: end;
 }
