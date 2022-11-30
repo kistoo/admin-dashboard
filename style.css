@@ -56,10 +56,20 @@ table {
 
 /*style*/
 
-
+:root {
+    --primary-color: #991b1b;
+    --secondary-color: #fbbf24;
+    --surface: #fecaca;
+    --background: #fffbeb;
+}
 
 img {
     height: 30px;
+}
+
+.icon {
+    /*Filter for darker backgrounds*/
+    filter: invert(100%) sepia(3%) saturate(3452%) hue-rotate(298deg) brightness(110%) contrast(99%);
 }
 
 .container {
@@ -71,6 +81,7 @@ img {
 .sidebar {
     display: grid;
     grid-template-rows: minmax(120px,2fr) repeat(auto-fill, minmax(60px,1fr));
+    background-color: var(--primary-color);
 }
 
 .sidebar div {
