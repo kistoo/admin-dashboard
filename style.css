@@ -185,8 +185,18 @@ input {
 .actions {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 30px;
     padding-right: 40px;
+}
+
+button {
+    background-color: var(--primary-color);
+    padding: 15px 35px;
+    border: none;
+    border-radius: 40% / 80%;
+    color: var(--surface);
+    font-weight: 800;
+    font-size: 18px;
 }
 
 .main-content {
