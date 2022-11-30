@@ -63,7 +63,7 @@ table {
 :root {
     --primary-color: #991b1b;
     --secondary-color: #9a3412;
-    --surface: #F7EEEE;
+    --surface: #fff5f5;
     --background: #e0d8d8;
     --secondary-background: rgb(248, 246, 246);
 }
@@ -258,7 +258,18 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: end;
-    gap: 10px;
+    gap: 5px;
+}
+
+.card img {
+    padding: 10px;
+    height: 50px;
+}
+
+.card img:hover {
+    background-color: var(--surface);
+    filter: contrast(88%);
+    transition: 300ms ease-in-out;
 }
 
 .social {
