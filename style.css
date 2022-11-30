@@ -127,7 +127,7 @@ img {
 .header>div {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 25px;
     align-items: center;
 }
 
@@ -136,12 +136,21 @@ img {
     justify-content: start;
 }
 
+input {
+    background-color: var(--background);
+    border: none;
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
 .profile {
     padding-right: 40px;
     justify-content: end;
 }
 
-.profile img {
+.profile>img +img {
     height: 50px;
     border-radius: 50%;
 }
@@ -281,7 +290,7 @@ hr {
     font-size: 20px;
 }
 
-h1, h2, h4, h5{
+h1, h2, h3, h4, h5{
     font-weight: 800;
 }
 
@@ -291,6 +300,10 @@ h1 {
 
 h2 {
     font-size: 20px;
+}
+
+h3 {
+    font-size: 19px;
 }
 
 h4 {
