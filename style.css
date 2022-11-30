@@ -211,20 +211,23 @@ img {
 }
 
 .announcements {
-    padding: 10px;
-    justify-content: start;
-    align-items: center;
+    margin-right: 40px;
 }
 
 .announcements>div {
-    background-color:var(--secondary-background);
+    background-color: var(--secondary-background);
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 1px #d6d6d6;
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 30px 20px;
 }
 
 hr {
     width: 100%;
+    margin: 20px 0;
+    opacity: 80%;
+    border-radius: 30%;
 }
 
 .header-title {
