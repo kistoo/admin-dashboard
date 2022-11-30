@@ -164,13 +164,13 @@ img {
     background-color: var(--background);
 }
 
-.projects {
+.projects>div {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: start;
     gap: 20px;
-    padding: 10px 40px;
+    padding: 0 40px;
 }
 
 .projects>h1 {
@@ -208,4 +208,25 @@ img {
     flex-direction: row;
     justify-content: end;
     gap: 10px;
+}
+
+.announcements {
+    padding: 10px;
+    justify-content: start;
+    align-items: center;
+}
+
+.announcements>div {
+    background-color:var(--secondary-background);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+hr {
+    width: 100%;
+}
+
+.header-title {
+    padding: 10px;
 }
