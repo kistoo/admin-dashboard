@@ -61,6 +61,11 @@ table {
     --secondary-color: #fbbf24;
     --surface: #fef2f2;
     --background: #fef3c7;
+    --secondary-background: #fafafa;
+}
+
+html {
+    height: 100%;
 }
 
 img {
@@ -129,4 +134,30 @@ img {
 .profile {
     padding-right: 40px;
     justify-content: end;
+}
+
+.content-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--secondary-background);
+    justify-content: space-between;
+}
+
+.greeting {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.greeting>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.actions {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-right: 40px;
 }
