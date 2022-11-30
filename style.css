@@ -63,7 +63,7 @@ table {
 :root {
     --primary-color: #991b1b;
     --secondary-color: #9a3412;
-    --surface: rgb(247, 238, 238);
+    --surface: #F7EEEE;
     --background: #e0d8d8;
     --secondary-background: rgb(248, 246, 246);
 }
@@ -76,9 +76,9 @@ img {
     height: 30px;
 }
 
-.icon {
+.icon{
     /*Filter for darker backgrounds*/
-    filter: invert(100%) sepia(3%) saturate(3452%) hue-rotate(298deg) brightness(110%) contrast(99%);
+    filter: invert(100%);
 }
 
 .container {
@@ -98,6 +98,14 @@ img {
     display: grid;
     grid-template-columns: 1fr 4fr;
     align-items: center;
+}
+
+.sidebar div.option.icon:hover {
+    filter: none;   
+    background-color: var(--secondary-background);
+    width: 101%;
+    height: 101%;
+    transition: 300ms ease-in-out;
 }
 
 .logo {
