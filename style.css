@@ -54,14 +54,22 @@ table {
   box-sizing: border-box;
 }
 
+/*font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 /*style*/
 
 :root {
     --primary-color: #991b1b;
     --secondary-color: #9a3412;
-    --surface: #ca6773;
+    --surface: rgb(247, 238, 238);
     --background: #e0d8d8;
     --secondary-background: rgb(248, 246, 246);
+}
+
+html {
+    position: fixed;
 }
 
 img {
@@ -77,6 +85,7 @@ img {
     display: grid;
     grid-template-columns: 1fr 5fr;
     height: 100vh;
+    font-family:'Poppins','Lucida-sans', sans-serif;
 }
 
 .sidebar {
@@ -112,7 +121,7 @@ img {
 .header {
     display: grid;
     grid-template-columns: 3fr 2fr;
-    background-color: var(--surface);
+    background-color: var(--secondary-background);
 }
 
 .header>div {
@@ -132,18 +141,43 @@ img {
     justify-content: end;
 }
 
+.profile img {
+    height: 50px;
+    border-radius: 50%;
+}
+
 .content-header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: var(--secondary-background);
+    background-color: var(--surface);
     justify-content: space-between;
+    padding: 20px 20px 20px 40px;
+}
+
+.content-header h1,h4{
+    font-weight: 800;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h4 {
+    font-size: 20px;
 }
 
 .greeting {
     display: flex;
     flex-direction: row;
     gap: 10px;
+    align-items: center;
+}
+
+.greeting img {
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 10px;
 }
 
 .greeting>div {
