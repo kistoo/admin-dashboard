@@ -5,4 +5,7 @@ In this project I'll practice intermediate html and css skills I gained from The
 I'll mix flexbox and grid properties to make this admin dashboard.
 
 Icons extracted from https://materialdesignicons.com/.
-Profile picture extracted from Date a Bullet.
+Users picture extracted from @deekCE on github and TheOdinProject community on github.Profile anime pictures extracted from:
+- Date a bullet
+- Jashin-chan Dropkick
+- Owari no Seraph 
