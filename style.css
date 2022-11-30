@@ -269,8 +269,9 @@ button {
 hr {
     width: 100%;
     margin: 20px 0;
-    opacity: 80%;
-    border-radius: 30%;
+    height: 1px;
+    border:0;
+    background-image: linear-gradient(to right, rgba(107, 107, 107, 0), rgba(161, 161, 161, 0.75), rgba(107, 107, 107, 0));
 }
 
 .trending {
